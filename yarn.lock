@@ -2093,9 +2093,9 @@ etag@~1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
 
-"ethers2@https://github.com/asnov/ethers.js#typescript":
-  version "4.0.0-beta.14"
-  resolved "https://github.com/asnov/ethers.js#57aa4bbc75f03fd547c2fc2e741981c715431d5a"
+"ethers2@https://github.com/asnov/ethers.js#fix/tslib":
+  version "4.0.0-beta.15"
+  resolved "https://github.com/asnov/ethers.js#a396438dfdeea66c1bbff6855741165a23792388"
   dependencies:
     "@types/node" "^10.3.2"
     aes-js "3.0.0"
@@ -2108,9 +2108,9 @@ etag@~1.8.1:
     uuid "2.0.1"
     xmlhttprequest "1.8.0"
 
-ethers@4.0.0-beta.14:
-  version "4.0.0-beta.14"
-  resolved "https://registry.yarnpkg.com/ethers/-/ethers-4.0.0-beta.14.tgz#76aa9257b9c93a7604ff4dc11f2a445d07f6459d"
+ethers@4.0.0-beta.15:
+  version "4.0.0-beta.15"
+  resolved "https://registry.yarnpkg.com/ethers/-/ethers-4.0.0-beta.15.tgz#b66eb43d65f8711ab3c335c432f7057f197efdc6"
   dependencies:
     "@types/node" "^10.3.2"
     aes-js "3.0.0"

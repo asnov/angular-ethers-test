@@ -16,7 +16,7 @@ export class AppComponent {
   title = 'angular-ethers-test';
 
   constructor() {
-    const bn: ethers.BigNumber = ethers.utils.bigNumberify(1);
+    const bn: ethers.utils.BigNumber = ethers.utils.bigNumberify(1);
     console.log(`BigNumber=`, bn);
   }
 
