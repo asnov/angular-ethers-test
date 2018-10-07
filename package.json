@@ -22,7 +22,7 @@
     "@angular/router": "^6.1.0",
     "@keydonix/liquid-long-client-library": "^1.2.1",
     "core-js": "^2.5.4",
-    "ethers": "4.0.0-beta.15",
+    "ethers": "^4.0.4",
     "ethers2": "https://github.com/asnov/ethers.js#fix/tslib",
     "rxjs": "~6.2.0",
     "zone.js": "~0.8.26"
