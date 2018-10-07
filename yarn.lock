@@ -2114,9 +2114,9 @@ etag@~1.8.1:
     uuid "2.0.1"
     xmlhttprequest "1.8.0"
 
-ethers@4.0.0-beta.15:
-  version "4.0.0-beta.15"
-  resolved "https://registry.yarnpkg.com/ethers/-/ethers-4.0.0-beta.15.tgz#b66eb43d65f8711ab3c335c432f7057f197efdc6"
+ethers@4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/ethers/-/ethers-4.0.3.tgz#76b2721ba0eed09b8e66c3a6c2bf56fb70adcf8a"
   dependencies:
     "@types/node" "^10.3.2"
     aes-js "3.0.0"
@@ -2124,7 +2124,7 @@ ethers@4.0.0-beta.15:
     elliptic "6.3.3"
     hash.js "1.1.3"
     js-sha3 "0.5.7"
-    scrypt-js "2.0.3"
+    scrypt-js "2.0.4"
     setimmediate "1.0.4"
     uuid "2.0.1"
     xmlhttprequest "1.8.0"
