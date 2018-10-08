@@ -2,14 +2,20 @@ import { Component } from '@angular/core';
 
 // this gives Uncaught Error: Cannot find module 'tslib'
 import { ethers } from 'ethers';
-
-import { LiquidLong, Provider, Scheduler, TimeoutScheduler, JsonRpcProvider } from '@keydonix/liquid-long-client-library/source';
 import { AsyncSendable, Web3Provider } from 'ethers/providers';
-// import { TimeoutScheduler } from '@keydonix/liquid-long-client-library/output';
-// import {LiquidLong} from '@keydonix/liquid-long-client-library/output';
 
-// this works nicely:
+// this works nicely without a production build tslib error:
 // import { ethers } from 'ethers2';
+
+// This compiles but intellisence doesn't work
+// import { LiquidLong, Provider, Scheduler, TimeoutScheduler, JsonRpcProvider } from '@keydonix/liquid-long-client-library';
+
+// "source/index.ts is missing from the TypeScript compilation" error
+// import { LiquidLong, Provider, Scheduler, TimeoutScheduler, JsonRpcProvider } from '@keydonix/liquid-long-client-library/source';
+
+// This works fine but looks weird
+import { LiquidLong, Provider, Scheduler, TimeoutScheduler, JsonRpcProvider } from '@keydonix/liquid-long-client-library/output';
+
 
 declare const web3: {
   currentProvider: AsyncSendable;
