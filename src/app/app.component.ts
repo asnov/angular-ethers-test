@@ -15,6 +15,7 @@ import { AsyncSendable, Web3Provider } from 'ethers/providers';
 
 // This works fine but looks weird
 import { LiquidLong, Provider, Scheduler, TimeoutScheduler, JsonRpcProvider } from '@keydonix/liquid-long-client-library/output';
+import 'ethers/shims/xmlhttprequest';
 
 
 declare const web3: {
